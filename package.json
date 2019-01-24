@@ -1,0 +1,25 @@
+{
+  "name": "wp-rc-cal",
+  "version": "1.0.0",
+  "description": "learn react webpack and data structures & algorithms",
+  "private": true,
+  "scripts": {
+    "test": "make test",
+    "dev": "webpack --config webpack/webpack.config.js",
+    "devServer": "node bin/dev-server"
+  },
+  "author": "zhanghe",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.3"
+  }
+}
